@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", var(--font-sans);
+}
+
+/* Custom styles for animations and specific effects */
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 20px rgba(239, 68, 68, 0.4);
+  }
+  .box-glow {
+    box-shadow: 0 0 30px rgba(239, 68, 68, 0.15);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

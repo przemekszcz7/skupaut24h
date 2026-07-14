@@ -1,0 +1,6 @@
+{
+  "name": "SKUP AUT 24h",
+  "description": "Profesjonalny skup samochodów za gotówkę od ręki na terenie województwa mazowieckiego. Darmowa wycena, szybki dojazd i minimum formalności.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
